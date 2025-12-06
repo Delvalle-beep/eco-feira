@@ -1,0 +1,15 @@
+/* Amiga, caso precise estilizar algum elemento do Bootstrap usa aqui
+caso contrário olha apenas a documentação do Bootstrap */
+header {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url('../assets/img/frutas-bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
