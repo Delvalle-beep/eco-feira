@@ -2,7 +2,6 @@
 /**
  * config.php
  * Arquivo de configuração e conexão com o banco de dados MySQL
- * Projeto: EcoFeira
  */
 
 // Configurações do banco de dados

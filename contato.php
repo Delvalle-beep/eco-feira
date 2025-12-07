@@ -2,7 +2,6 @@
 /**
  * contato.php
  * Processa o formulário de contato e salva no banco de dados
- * Projeto: EcoFeira
  */
 
 // Incluir arquivo de configuração
@@ -67,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <head>
                 <meta charset='UTF-8'>
                 <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                <title>Mensagem Enviada - EcoFeira</title>
+                <title>Mensagem Enviada</title>
                 <link rel='stylesheet' href='style.css'>
                 <style>
                     .success-container {
@@ -117,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         Obrigado por entrar em contato, <strong>" . htmlspecialchars($nome) . "</strong>!<br>
                         Recebemos sua mensagem e responderemos em breve no e-mail <strong>" . htmlspecialchars($email) . "</strong>.
                     </p>
-                    <a href='index.php' class='btn-voltar'>Voltar para a EcoFeira</a>
+                    <a href='index.php' class='btn-voltar'>Voltar para o site</a>
                 </div>
             </body>
             </html>";
